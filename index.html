@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje CV</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link href="stylesheet"herf="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+
+  <style>
+    * {
+      margin: 1;
+      padding: 1;
+    }
+    
+    body {
+      background-color: #f1e7ee;
+      margin-top: 50px;
+    }
+
+    .navbar {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      background-color: rgb(9, 10, 67);
+    }
+
+    .container-contact {
+      width: 400%;
+      max-width: 350px;
+      margin-left: 5rem;
+      background-color: lavender
+    }
+
+    .header {
+      padding: 3rem; 
+      margin-bottom: 4rem;
+      background-color: #4d83c9;
+    }
+
+    .header img {
+      width: 200px; 
+      height: 200px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-left: 2rem; 
+    }
+
+    .header p {
+      margin: 1rem 2rem;
+    }
+
+    .section {
+      margin-bottom: 80px;
+    }
+
+    .section-contact {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .section:hover {
+      transform: scale(1.02);
+      transition: 0.5s;
+    }
+
+    .card {
+      box-shadow: 0 20px 40px rgba(217, 77, 133, 0.35);
+      padding: 2rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row-reverse; 
+    }
+
+    .card img {
+      width: 180px; 
+      height: 180px;
+      border-radius: 50%;
+      margin-left: 1.5rem; 
+    }
+
+    .card h3 {
+      margin: 1.5rem 1.5rem;
+      font-size: x-large;
+      font-weight: bold;
+      background-color: #9dc2ed;
+    }
+
+    .card p {
+      margin: 0 1.5rem; 
+    }
+
+    .form-input {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #10044a;
+      margin-bottom: 25px;
+    }
+
+    .form-textarea {
+      display: block;
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #10044a;
+      resize: vertical;
+      height: 120px;
+      margin-bottom: 15px;
+    }
+
+    .form-submit {
+      background-color: #10044a;
+      color:#f7deee;
+      padding: 9px 18px; 
+      border-radius: 8px;
+      border:#10044a;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="bg-gray-800 text-white p-4 header">
+    <div class="container mx-auto">
+      <div class="flex justify-center items-center">
+        <img src="istockphoto-685864090-612x612.jpg" alt="Moje Zdjęcie" class="w-16 h-16 rounded-full mr-4">
+        <div>
+          <h1 class="text-2xl font-bold">Your Best Nanny</h1>
+          <p class="text-sm">Hej, jestem Anastazja i jestem nianią.
+             Tutaj znajdziesz niezbędne informacje na temat mojej pracy :)</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar bg-gray-800 text-white p-4">
+    <div class="container mx-auto">
+      <ul class="flex justify-center">
+        <li class="mr-4">
+          <a href="#about">O mnie</a>
+        </li>
+        <li class="mr-4">
+          <a href="#skills">Umiejętności</a>
+        </li>
+        <li class="mr-4">
+          <a href="#experience">Doświadczenie</a>
+        </li>
+     <li class="mr-4">
+          <a href="#languages">Języki</a>
+        </li>
+        <li>
+          <a href="#contact">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="section">
+    <div class="container mx-auto">
+      <div class="card p-4">
+        <img src="unnamed (1).jpg" alt="Zdjęcie" class="w-16 h-16 rounded-full">
+        <div class="card-text">
+          <h3 class="card-text-title">O mnie</h3>
+          <p>  Jestem nianią z powołania. Uwielbiam dzieci — z wzajemnością. Opiekuję się dziećmi od ponad 8 lat. 
+        Pracowuje jako niania w Polsce oraz za granicą. 
+        Jestem również studentką Kognitywistyki komunikacji na Uniwersytecie Szczecińskim.
+        W wolnym czasie trenuję taniec (balet) oraz gram na instrumentach (pianio i ukulele).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container mx-auto">
+      <div class="card p-4">
+        <img src="IMG_7258.jpg" alt="Zdjęcie" class="w-16 h-16 rounded-full">
+        <div class="card-text">
+          <h3 class="card-text-title">Umiejętności</h3>
+          <p>*Znajomość zasad udzielania pierwszej pomocy poświadczona certyfikatem</p>
+            <p>*Znajomość języka angielskiego na poziomie komunikatywnym</p>
+            <p>*Ukończony kurs animatora zabaw dziecięcych</p>
+            <p>*Znajomość zasad diety bezglutenowej lub innych diet specjalistycznych</p>
+            <p>*doświadczenie w pracy z dziećmi z ADHD</p>
+            <p>*Cierpliwość i empatia</p>
+            <p>*Umiejętność gotowania</p>
+            <p>*Posiadanie prawa jazdy</p>
+            <p>*Znajomość pedagogiki Montessori oraz pedagogiki waldorfskiej</p>
+            <p>*Umiejętności plastyczne, muzyczno-rytmiczne.</p>
+           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container mx-auto">
+      <div class="card p-4">
+        <img src="unnamed.jpg" alt="Zdjęcie" class="w-16 h-16 rounded-full">
+        <div class="card-text">
+          <h3 class="card-text-title">Doświadczenie</h3>
+          <p>W 2016 roku wyjechałam do Norwegii i opiekowałam się tam dziećmi z trzech rodzin w wieku od 1,5 roku do 5 lat. Spędziłam tam 3 lata.
+            Na początku 2020 roku zajmowałam sie 7 miesięcznym chłopcem oaz jego 7 letnim bratem. Nasza stała współpraca trwała 2,5 roku. Teraz jeżdżę tam doraźnie.
+        Pod koniec 2021 roku zaczęłam współprace z rodziną z rocznym chłopcem oraz z inną rodziną z trojką chłopców (1.5;3;4 lata) - współprca trwa.
+    <p>Osiągnięcia:</p>
+    <p>*5-krotny tytuł Niani Miesiąca (na podstawie ankiet rodziców)</p>
+    <p>*Niania Roku 2022 (na podstawie ankiet rodziców)</p>
+   <p> *Zmiana nawyków żywieniowych u 14 dzieci (wyłączenie cukrów prostych z diety)   </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="languages" class="section">
+    <div class="container mx-auto">
+      <div class="card p-4">
+        <img src="IMG-7685.JPG" alt="Zdjęcie" class="w-16 h-16 rounded-full">
+        <div class="card-text">
+          <h3 class="card-text-title">Języki</h3>
+          <p>Język angielski - C1</p>
+          <P>Język niemiecki - B2</P>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-contact">
+    <div class="container container-contact mx-auto">
+      <div class="card">
+        <div class="card-text">
+          <h2 class="text-2xl font-bold mb-4">Napisz do mnie:</h2>
+          <form>
+            <input type="text" class="form-input" placeholder="Imię i nazwisko" required>
+            <input type="email" class="form-input" placeholder="Adres e-mail" required>
+            <textarea class="form-textarea" placeholder="Wiadomość" required></textarea>
+            <button type="submit" class="form-submit">Wyślij</button>
+                <li class="text-pink-400 flex items-center mt-2">
+                  <svg class="h-5 w-5 mr-2 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                  </svg>
+            <span>Telefon: 789-129-434</span>
+          </li>
+          <li class="text-pink-400 flex items-center mt-2">
+            <svg class="h-5 w-5 mr-2 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span>Email:yournanny@gmail.com</span>
+          </li>
+          <li class="text-pink-400 flex items-center mt-2">
+            <svg class="h-5 w-5 mr-2 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+            <span>Adres: ul.Mickiewicza 1, 70-100 Szczecin</span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-blue-50 py-4">
+    <div class="container mx-auto">
+
+
+  <section class="py-8">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Dodaj opinię</h2>
+      <form class="max-w-md mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Imię:</label>
+          <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md
+            focus:outline-none focus:border-purple-600" required>
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Opinia:</label>
+          <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300
+            rounded-md focus:outline-none focus:border-purple-600" required></textarea>
+        </div>
+        <button type="submit" class="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">Dodaj opinię</button>
+      </form>
+    </div>
+  </section>
+</div>
+</section>
+
+<footer class="bg-purple-600 text- text-center py-4">
+
+  <section class="bg-blue-100 py-8">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Opinie klientów</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p>"Opiekunka bardzo zaangażowana, moje dziecko uwielbia z nią spędzać czas. Bardzo polecam!"</p>
+          <p class="mt-4 text-pink-600">- Anna Kowalska</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p>"Profesjonalne podejście do pracy, zawsze punktualna i dbająca o dobre samopoczucie dziecka."</p>
+          <p class="mt-4 text-pink-600">- Jan Nowak</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p>"Niania, która ma wiele cierpliwości i zrozumienia dla potrzeb dziecka. Polecam z czystym sumieniem."</p>
+          <p class="mt-4 text-pink-600">- Marta Wiśniewska</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-blue-700 py-4">
+    <div class="container mx-auto px-4 text-center text-white">
+      &copy; 2023 Opiekunka do dzieci. Wszelkie prawa zastrzeżone.
+    </div>
+  </footer>
+
+</body>
+
+</html>
